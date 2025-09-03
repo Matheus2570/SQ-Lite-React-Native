@@ -1,11 +1,34 @@
-# Sample Snack app
+# Manutenção de Banco de Dados - React Native 📱💾
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este projeto é uma aplicação **React Native** que permite realizar operações de pesquisa em um banco de dados **SQLite**. Gerencia uma tabela de funcionários, com consultas por nome, salário mínimo e cargo, em uma interface simples e funcional! 🚀
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Funcionalidades ✨
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **Pesquisa de Funcionários** 🔍:
+  - Exibir todos os registros da tabela `funcionarios`. 📋
+  - Pesquisar funcionários por nome (com correspondência parcial). 👤
+  - Pesquisar funcionários por salário mínimo. 💰
+  - Pesquisar funcionários por cargo (com correspondência parcial). 💼
+- **Interface de Usuário** 🖼️:
+  - Navegação fluida com `ScrollView` para dispositivos móveis. 📜
+  - Resultados exibidos em uma lista (`FlatList`) com ID, nome, salário e cargo. 📊
+  - Mensagens de status para feedback sobre o banco e operações. ℹ️
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tecnologias Utilizadas 🛠️
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **React Native**: Framework para interface mobile. 📱
+- **Expo SQLite**: Manipulação do banco de dados SQLite. 🗄️
+- **JavaScript/ES6+**: Lógica da aplicação. 💻
+
+## Pré-requisitos 📋
+
+- Node.js (versão 18.x ou superior) 🟢
+- Expo CLI (`npm install -g expo-cli`) 📦
+- Dispositivo ou emulador Android/iOS configurado para Expo 🤖🍎
+
+## Instalação ⚙️
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
+   cd repositorio
