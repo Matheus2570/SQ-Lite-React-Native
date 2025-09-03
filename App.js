@@ -6,11 +6,11 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './components/HomeScreen';
-import CreateDbScreen from './components/CreateDbScreen';
-import CreateTableScreen from './components/CreateTableScreen';
-import InsertScreen from './components/InsertScreen';
-import MaintenanceScreen from './components/MaintenanceScreen';
+import HomeScreen from './components/HomeTela';
+import CreateDbScreen from './components/CriandoDBTela.s';
+import CreateTableScreen from './components/CriandoTebelaTela';
+import InsertScreen from './components/InserirTela';
+import MaintenanceScreen from './components/MainTela';
 
 // Criando o Stack Navigator
 const Stack = createStackNavigator();
