@@ -7,7 +7,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './components/HomeTela';
-import CreateDbScreen from './components/CriandoDBTela.s';
+import CreateDbScreen from './components/CriandoDBTela.js';
 import CreateTableScreen from './components/CriandoTebelaTela';
 import InsertScreen from './components/InserirTela';
 import MaintenanceScreen from './components/MainTela';
